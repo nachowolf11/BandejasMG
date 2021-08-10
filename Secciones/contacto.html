@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="BANDEJAS, REGALOS, REGALO, OBSEQUIO, CANASTAS, CAJAS, GOLOCINAS, PICADAS,
+    DULCES, ENVIO, ENVIOS, CONTACTO, CONSULTAS, DUDAS">
+    <meta name="description" content="Realiza tu consulta a cerca de nuestro emprendimiento.">
+    <link rel="stylesheet" href="../cssbt/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../CSS/pruebacss.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body class="container-fluid">
+    <header class="row">
+        <div id="header__div--contenedorLogo" class="col-md-3">
+            <img id="logo" src="../Imagenes/canastas mg.png" alt="logo"/>
+        </div>
+        <div id="header__div--contenedorIcono" class="col-md-1 align-self-end offset-md-8">
+            <a id="carrito" class="btn btn-light" role="button" href="../error404.html"><img class="icono" src="../Imagenes/shopping-cart.png" alt="carrito"/></a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="../index.html">Home</a>
+                  <a class="nav-link" href="../Secciones/dulces.html">Dulces</a>
+                  <a class="nav-link" href="../Secciones/picadas.html">Picadas</a>
+                  <a class="nav-link" href="../Secciones/creatubandeja.html">Crea tu bandeja</a>
+                  <a class="nav-link active" aria-current="page" href="../Secciones/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="row justify-content-center section--adaptable">
+        <h1 class="titulos">Contacto</h1>
+        <div class="col-md-7">
+        <form action="#" method="GET">
+            <fieldset>
+                <legend><h3>Envianos tu consulta</h3></legend>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" name="apellido" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control"/>
+                </div>
+                <div>
+                    <label for="localidad">Localidad</label>
+                    <select name="localidad" class="form-select" aria-label="Default select example">
+                        <option value="1">Bandield</option>
+                        <option value="2">Lanus</option>
+                        <option value="3">Llavallol</option>
+                        <option value="4">Lomas de Zamora</option>
+                        <option value="5">Temperley</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="consulta">Consulta</label>
+                    <textarea class="form-control" rows="3" name="consulta"></textarea>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="suscripcion">Deseo recibir información sobre ofertas y promociones</label>
+                    <input class="form-check-input" type="checkbox" name="suscripcion" value=""/>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-lg" type="submit" name="enviar">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+    </section>
+    <footer class="row justify-content-end">
+        <div id="footer__hijo">
+            <a href="https://www.instagram.com/bandejasmg/"><img class="icono" src="../Imagenes/IG.png" alt="iconoIG"/></a>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

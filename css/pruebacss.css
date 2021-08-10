@@ -1,0 +1,182 @@
+html {
+  font-size: 62.5%; }
+
+header {
+  background-color: #ff8f8f;
+  border: 2px solid #ff5031;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 16px; }
+
+#header__div--contenedorLogo {
+  padding: 5px;
+  display: flex;
+  justify-content: center; }
+
+#header__div--contenedorIcono {
+  padding: 5px;
+  display: flex;
+  justify-content: center; }
+  @media (min-width: 768px) {
+    #header__div--contenedorIcono {
+      justify-content: flex-end; } }
+
+nav {
+  background-color: #ffc6c6; }
+  @media (min-width: 992px) {
+    nav div {
+      display: flex;
+      justify-content: flex-end; } }
+
+#mg {
+  font-size: 1.6rem; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+#logo {
+  height: 750;
+  width: 200px; }
+
+#carrito {
+  background-color: #ffa2a2; }
+
+.accordion-item {
+  background-color: #fff0ea; }
+  .accordion-item h2 button {
+    background-color: #fff0ea;
+    border: 1.5px solid #ffa999;
+    font-size: 1.6rem; }
+
+#section__entregas {
+  background-color: #ffbfb6;
+  border: 2px solid #ff8f7b; }
+
+.section__div--item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 20rem;
+  width: 17rem;
+  padding-top: 5px; }
+  .section__div--item p {
+    font-size: 1.95rem; }
+  .section__div--item img {
+    height: 80px;
+    width: 150px;
+    border: 1px solid black; }
+
+.section__button--agregar {
+  height: fit-content;
+  width: fit-content;
+  background-color: #f57171; }
+  .section__button--agregar a {
+    font-size: 2rem; }
+
+section {
+  background-color: #ffdfdb;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 2px solid #f0aea3;
+  height: 550px; }
+  section .bandeja {
+    margin: 5px; }
+    section .bandeja div h5 {
+      font-size: 1.8rem; }
+    section .bandeja div p {
+      font-size: 1.4rem; }
+
+@media (min-width: 1200px) {
+  section {
+    height: 687.5px; } }
+
+.section--adaptable {
+  height: 10%; }
+
+.section__div--flexRow {
+  display: flex;
+  justify-content: center; }
+  .section__div--flexRow div {
+    display: flex;
+    flex-direction: column; }
+    .section__div--flexRow div button {
+      align-self: center; }
+
+#section__div--eslogan {
+  margin: 30px; }
+  #section__div--eslogan h1 {
+    font-size: 3.2rem;
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    text-align: center; }
+  #section__div--eslogan p {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-weight: 300; }
+
+footer {
+  background-color: #ff8f8f;
+  border: 2px solid #ff5031;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem; }
+
+#footer__hijo {
+  width: fit-content;
+  padding: 5px; }
+
+.icono {
+  height: 3.5rem;
+  width: 3.5rem; }
+
+article {
+  padding: 0.5rem;
+  margin: 0.5rem; }
+
+.titulos {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  font-size: 3.2rem;
+  text-decoration: underline;
+  text-align: center;
+  margin: 15px; }
+
+.subtitulo {
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 2.5rem; }
+
+.cursiva {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.3rem;
+  margin: 15px; }
+
+.imagen {
+  height: 180px;
+  width: 180px; }
+
+@media (min-width: 576px) {
+  .imagen {
+    height: 240px;
+    width: 240px; } }
+
+@media (min-width: 768px) {
+  .imagen {
+    height: 300px;
+    width: 300px; } }
+
+form {
+  font-size: 1.6rem;
+  margin: 1rem; }
+  form div {
+    margin: 1rem; }
+
+.article__li--productos li {
+  font-size: 1.9rem; }
