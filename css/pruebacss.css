@@ -49,10 +49,6 @@ a {
     border: 1.5px solid #ffa999;
     font-size: 1.6rem; }
 
-#section__entregas {
-  background-color: #ffbfb6;
-  border: 2px solid #ff8f7b; }
-
 .section__div--item {
   display: flex;
   justify-content: space-between;
